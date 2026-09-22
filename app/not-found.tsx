@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function NotFound(){return <main className="not-found-page"><span>404</span><h1>This page has not reached the table yet.</h1><p>The page may have moved or the link may be incomplete.</p><Link href="/">Return home</Link></main>}

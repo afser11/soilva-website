@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function sitemap():MetadataRoute.Sitemap{const b="https://soilva.in";return[{url:b,changeFrequency:"weekly",priority:1},{url:`${b}/about`,changeFrequency:"monthly",priority:.9},{url:`${b}/kandap-process`,changeFrequency:"monthly",priority:.9},{url:`${b}/recipes`,changeFrequency:"weekly",priority:.8},{url:`${b}/contact`,changeFrequency:"monthly",priority:.7},{url:`${b}/distributor`,changeFrequency:"monthly",priority:.8}]}

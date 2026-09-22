@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="soilva-loading" role="status"><span></span><strong>Soilva</strong><small>From Soil to Soul</small></div>}
